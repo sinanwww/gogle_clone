@@ -248,7 +248,7 @@ justify-content: center;
         height: 21px;
         align-self: center;
     }
-    hr {
+    .divider {
         width: 100%;
         border: solid #dadce0;
         border-width: 1px 0 0;
@@ -267,6 +267,7 @@ justify-content: center;
         display: flex;
         gap: 15px;
     }
+
     .blue-underline{
         width: 100%;
         border: solid  #1a73e8;
