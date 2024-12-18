@@ -21,7 +21,22 @@ body {
 
 }
 .menu{
-  
+    
+    height: 64px;
+    min-height: 64px;
+    display: block;
+    max-width: 100%;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+
+    touch-action: pan-y;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    top: -64px;
+    position: static;
+
     height: 64px;
     padding-left: 18px;
     padding-top: 23px;
@@ -251,4 +266,12 @@ justify-content: center;
     .footer-bt{
         display: flex;
         gap: 15px;
+    }
+    .blue-underline{
+        width: 100%;
+        border: solid  #1a73e8;
+        border-width: 2px 0 0;
+        clear: both;
+        height: 0;
+        margin-top: 17px;
     }
