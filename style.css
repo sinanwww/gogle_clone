@@ -1,0 +1,254 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700|Google+Sans+Text:400,500,700,400i,500i,700i|Google+Sans:400,500|Google+Sans+Display:400|Product+Sans:400&lang=en');
+
+body {
+    background: #fff;
+    color: #202124;
+    cursor: auto;
+    font-family: "Google Sans", Roboto, Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.444;
+    margin: 0;
+    overflow-wrap: break-word;
+    padding: 0;
+}
+.logo{
+    float: left;
+    margin-right: 40px;
+
+}
+.menu{
+  
+    height: 64px;
+    padding-left: 18px;
+    padding-top: 23px;
+}
+.menu-items{
+    float: left;
+    background: #fff;
+    color: #202124;
+    padding-right:25px;
+    font-family: "Google Sans", "Roboto", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    
+    color: #5f6368;
+    forced-color-adjust: auto;
+
+}
+
+.mission{
+    margin-top: 37px;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 36px;
+    letter-spacing: normal;
+    font-family: "Google Sans", Roboto, Arial, Helvetica, sans-serif;
+}
+.all-google{
+    text-align: center;
+    margin-top: 82px;
+}
+.latest{
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: initial;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 36px;
+}
+.learn-more{
+    background-color: transparent;
+    color: #1a73e8;
+    font-family: "Google Sans", Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    margin: 0;
+}
+.products{
+    font-size: 4vw;
+    font-weight: 400;
+    letter-spacing: -.5px;
+    line-height: 1.2em;
+    text-align: center;
+}
+.view-prodects-button{
+    color: #fff;
+    font-family: "Google Sans", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 24px;
+    text-align: center;
+    
+    background-color: #1a73e8;
+    margin: 8px;
+    width: 168px;
+    height: 25px;
+    overflow: hidden;
+    padding: 12px 24px 12px 24px;
+    border-radius: 4px;
+}
+.display-flex {
+    display: flex;
+    justify-content: center;
+  }
+  
+.get-prodect{
+
+    color: #185abc;
+    font-family: "Google Sans", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 24px;
+    text-align: center;
+    
+    
+    border: 1px solid #dadce0;
+
+    background-color:#fff; 
+    margin: 8px;
+    width: 168px;
+    height: 25px;
+    overflow: hidden;
+    padding: 12px 24px 12px 24px;
+    border-radius: 4px;
+}
+.discover{
+    text-align: center;
+    margin-top: 82px;
+}
+
+
+.discover-text{
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: initial;
+    line-height: 36px;
+    text-align: center;
+}
+.view-all-button{
+    color: #fff;
+    font-family: "Google Sans", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 24px;
+    text-align: center;
+    
+    background-color: #1a73e8;
+    margin: 8px;
+    width: 204px;
+    height: 25px;
+    overflow: hidden;
+    padding: 12px 24px 12px 24px;
+    border-radius: 4px;
+}
+.gallery{
+     
+        border-radius: 8px;
+        overflow: hidden;
+        text-align: center; 
+}
+
+.gallery-picture{
+    
+    border-radius: 8px;
+     width: 86%;
+}
+.gallery-label{
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: initial;
+    line-height: 32px;
+}
+.gallery-top{
+margin-top: 120px;
+margin-left: 76px;
+margin-right: 76px;
+display: flex;
+justify-content: center;
+}
+.gallery-picture2{
+    
+    border-radius: 8px;
+     width: 100%;
+}
+.gallery-bottem{
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    }
+
+
+    .footer{
+          margin-top: 60px;
+          background: #f8f9fa;
+          padding-left:  112px; ;
+          padding-right:  112px; ;
+          padding-top: 21px;
+          padding-bottom: 35px;
+          margin-bottom: 0;
+    }
+   .footer-titele{
+         color: #202124;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: initial;
+        line-height: 24px;
+    }
+    .footer-label{
+        color: #5f6368;
+       font-size: 16px;
+       font-weight: 500;
+       letter-spacing: initial;
+       line-height: 24px;
+   }
+    .footer-top-left{
+        display: flex;
+        gap: 30px;
+    
+      }
+    .footer-top{
+        display: flex;
+    justify-content: space-between;
+    }
+    .hindi-font-style{
+        color: #202124;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: .1px;
+        line-height: 24px;
+    }
+    .lan-icon {
+        margin-right: 10px;
+        height: 21px;
+        align-self: center;
+    }
+    hr {
+        width: 100%;
+        border: solid #dadce0;
+        border-width: 1px 0 0;
+        clear: both;
+        height: 0;
+        margin-bottom: 19px;
+        margin-top: 20px;
+        padding: 0;
+    }
+    .tb{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 48px;
+    }
+    .footer-bt{
+        display: flex;
+        gap: 15px;
+    }
